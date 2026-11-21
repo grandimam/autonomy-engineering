@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "path_base": "case-studies/openai-performance-factory/",
+  "source": {
+    "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+    "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/",
+    "publisher": "OpenAI",
+    "authors": [
+      "Okay Zed",
+      "Cyrus Forbes"
+    ],
+    "published_on": "2026-11-19",
+    "captured_on": "2026-11-22",
+    "capture_timezone": "Asia/Dubai",
+    "full_article_text_included": false
+  },
+  "rights": {
+    "attribution": "OpenAI; respective rights holders retain ownership",
+    "open_license_identified": false,
+    "covered_by_repository_mit_license": false,
+    "notice_path": "../../THIRD_PARTY_NOTICES.md"
+  },
+  "assets": [
+    {
+      "path": "diagrams/evolution.webp",
+      "kind": "publisher_image",
+      "source_url": "https://images.ctfassets.net/kftzwdyauwt9/581rKVIvguLraKii21zIgr/83deca5cdcec639b656a9a5ec1954f4b/performance-factory-evolution-light.png?w=3840&q=80&fm=webp",
+      "publisher_filename": "performance-factory-evolution-light.png",
+      "media_type": "image/webp",
+      "capture_method": "Chrome rendered-page asset inventory and bundle via computer-use tool",
+      "transformation": "No byte transformation; filename extension corrected to match WebP response",
+      "bytes": 73116,
+      "sha256": "1931aa86eed787f2482f0400778abc9c7a15c82dd295a12225c4f18624da7c6b",
+      "recorded_at_utc": "2026-11-21T21:33:25+00:00"
+    },
+    {
+      "path": "diagrams/orchestrator-architecture.webp",
+      "kind": "publisher_image",
+      "source_url": "https://images.ctfassets.net/kftzwdyauwt9/4GVsirng1kgJ1GzSsQ9Iof/f21a0b8682d456132be1ef8e1b9ce0ed/performance-factory-orchestrator-architecture-light.png?w=3840&q=80&fm=webp",
+      "publisher_filename": "performance-factory-orchestrator-architecture-light.png",
+      "media_type": "image/webp",
+      "capture_method": "Chrome rendered-page asset inventory and bundle via computer-use tool",
+      "transformation": "No byte transformation; filename extension corrected to match WebP response",
+      "bytes": 49770,
+      "sha256": "6f5629b1b65a71c4e0f27ef67c3d473430aa720d050ff24adc676df2dbbf3e8f",
+      "recorded_at_utc": "2026-11-21T21:33:25+00:00"
+    },
+    {
+      "path": "diagrams/worker-startup-report.webp",
+      "kind": "publisher_image",
+      "source_url": "https://images.ctfassets.net/kftzwdyauwt9/5w8KpwlFR3tNfJbAStImkG/ee5f1df65a302cb09dde0a7d52d09138/performance-factory-worker-startup-report.png?w=3840&q=90&fm=webp",
+      "publisher_filename": "performance-factory-worker-startup-report.png",
+      "media_type": "image/webp",
+      "capture_method": "Chrome rendered-page asset inventory and bundle via computer-use tool",
+      "transformation": "No byte transformation; filename extension corrected to match WebP response",
+      "bytes": 274610,
+      "sha256": "e34c7bfa1290a97917675fe02bb4b3b8ad0dacf67225e9cbfd493ebb06af3cc4",
+      "recorded_at_utc": "2026-11-21T21:33:25+00:00"
+    },
+    {
+      "path": "diagrams/regression-workflow-browser.jpg",
+      "kind": "browser_screenshot",
+      "source_url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/#the-first-workflow-from-alert-to-recovery",
+      "media_type": "image/jpeg",
+      "capture_method": "Chrome screenshot cropped to the interactive workflow bounds via computer-use tool",
+      "capture_state": "Paused; active stage Find root cause",
+      "dimensions": {
+        "width": 676,
+        "height": 321
+      },
+      "limitations": "One rendered frame; does not preserve interactive behavior or all animation states",
+      "bytes": 13477,
+      "sha256": "c686afc0a70292fb270410bdbf75422ddc18795950fddaab444dbf9263194888",
+      "recorded_at_utc": "2026-11-21T21:33:25+00:00"
+    },
+    {
+      "path": "diagrams/multiple-workflows-browser.jpg",
+      "kind": "browser_screenshot",
+      "source_url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/#whats-next-broader-applications-proactive-monitoring",
+      "embedded_player_url": "https://player.vimeo.com/video/1246485623?h=0445ddf6d0&controls=0&autopause=0&autoplay=0&background=0&loop=1&muted=1",
+      "media_type": "image/jpeg",
+      "capture_method": "Chrome screenshot cropped to the embedded player bounds via computer-use tool",
+      "capture_state": "Paused around 00:08 of 00:19",
+      "dimensions": {
+        "width": 680,
+        "height": 382
+      },
+      "limitations": "One frame including player controls; full video not downloaded",
+      "bytes": 21538,
+      "sha256": "2126c10ff7dd7244885924873e56a81bf989cd5475f812d588d2d5e4bababc61",
+      "recorded_at_utc": "2026-11-21T21:33:25+00:00"
+    }
+  ],
+  "limitations": [
+    "Light-mode publisher images only; no dark or mobile variant collection",
+    "Dynamic visuals are static browser captures",
+    "Full article text, page HTML, and full embedded video are not included"
+  ]
+}
