@@ -24,7 +24,7 @@ Record the canonical URL, publisher, authors, publication date, capture date, ac
 
 Use meaningful filenames and file extensions that match the actual media type. Keep original figures separate from browser screenshots and redraws. For dynamic content, identify whether an artifact preserves the animation or only one frame.
 
-Link to full articles unless there is a basis for including their text. Attribute third-party material and document its rights separately from the repository license. Do not store authentication data, browser profiles, or unrelated page assets.
+Link to full articles unless there is a basis for including their text. Credit original sources beside captured visuals. Do not store authentication data, browser profiles, or unrelated page assets.
 
 ## Concepts, patterns, and code
 

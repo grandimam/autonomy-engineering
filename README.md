@@ -44,7 +44,7 @@ Our first case study examines [OpenAI's engineering article](https://openai.com/
   <img src="case-studies/openai-performance-factory/diagrams/orchestrator-architecture.webp" alt="OpenAI's original Performance Factory architecture figure" width="100%">
 </a>
 
-<sub>Original figure: OpenAI. <a href="case-studies/openai-performance-factory/source/README.md">Source and capture notes</a> · <a href="THIRD_PARTY_NOTICES.md">Attribution and rights</a></sub>
+<sub>Original figure: OpenAI. <a href="case-studies/openai-performance-factory/source/README.md">Source and capture notes</a></sub>
 
 | Follow the evidence | Think through the implementation |
 | :--- | :--- |
@@ -82,5 +82,5 @@ Bring a primary source, a sharper explanation, a corrected assumption, or a smal
 
 <p align="center">
   <strong>Read deeply. Build carefully. Make the mechanisms visible.</strong><br>
-  <sub>Original contributions: <a href="LICENSE">MIT</a> · Captured source material: <a href="THIRD_PARTY_NOTICES.md">third-party notices</a></sub>
+  <sub>Original contributions: <a href="LICENSE">MIT</a></sub>
 </p>

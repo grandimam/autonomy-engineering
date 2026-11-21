@@ -16,6 +16,6 @@ A study of the system described in [OpenAI's article](https://openai.com/index/h
 
 ![OpenAI's published architecture figure](diagrams/orchestrator-architecture.webp)
 
-Figure: OpenAI. See the [source record](source/README.md) and [third-party notice](../../THIRD_PARTY_NOTICES.md).
+Figure: OpenAI. See the [source record](source/README.md).
 
 The original visuals are preserved locally. The full article remains available at the publisher's link; the local summary is not a transcription. Proposed schemas, concurrency controls, and failure handling in this study are our own design choices.

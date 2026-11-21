@@ -1,6 +1,6 @@
 # Source visuals
 
-These are captured OpenAI visuals from the [primary article](https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/), not generated illustrations. See [provenance](../source/manifest.json), [capture notes](../source/README.md), and [rights](../../../THIRD_PARTY_NOTICES.md).
+These are captured OpenAI visuals from the [primary article](https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/), not generated illustrations. See [provenance](../source/manifest.json) and [capture notes](../source/README.md).
 
 ## Evolution — publisher image
 

@@ -18,4 +18,4 @@ Use this publication as evidence for the [source summary](source/summary.md). Th
 
 The embedded video can also be viewed in its [source player](https://player.vimeo.com/video/1246485623?h=0445ddf6d0). Only one browser-captured frame is stored here.
 
-Exact asset URLs, local file types, capture methods, byte counts, and hashes are in the [manifest](source/manifest.json). See [capture boundaries](source/README.md#capture-boundaries) and [third-party attribution](../../THIRD_PARTY_NOTICES.md).
+Exact asset URLs, local file types, capture methods, byte counts, and hashes are in the [manifest](source/manifest.json). See [capture boundaries](source/README.md#capture-boundaries).

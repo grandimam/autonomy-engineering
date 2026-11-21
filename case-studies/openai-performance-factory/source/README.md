@@ -30,4 +30,4 @@ No full-page screenshot, article HTML archive, site scripts, fonts, navigation g
 
 Open the canonical article in a browser. Inspect its rendered figures, then use the browser's page asset inventory to export the three article images. Pause dynamic visuals and capture their bounds. Inspect every saved image, record the exact source URLs and capture method, and regenerate byte counts and SHA-256 digests in the manifest.
 
-Keep updated captures explicit in the change history; a later page revision may differ from this record. Check the [rights notice](../../../THIRD_PARTY_NOTICES.md) when reusing the visuals.
+Keep updated captures explicit in the change history; a later page revision may differ from this record.
