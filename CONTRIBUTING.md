@@ -1,35 +1,44 @@
 # Contributing
 
-Build this repository around systems with inspectable evidence. One well-supported case study is more useful than many empty directories.
+This is an implementation-oriented field guide, **not** an awesome list. Contributions should help readers understand, build, test, or apply an autonomous-system mechanism.
+
+## Editorial standard
+
+A substantive engineering topic should answer:
+
+1. What is the mechanism?
+2. Why is it needed, and under what assumptions?
+3. How can someone implement the smallest useful version?
+4. What invariants and failure experiments establish correctness?
+5. Where can the mechanism be applied in an end-to-end mission?
+
+Prefer one well-supported, tested explanation over many empty headings or tool links.
 
 ## Case studies
 
-Use `case-studies/<system-name>/` and include:
-
-| File | What belongs here |
-| --- | --- |
-| `README.md` | Scope, status, and a reading path |
-| `architecture.md` | Source-backed views and unresolved technical questions |
-| `reconstruction.md` | An explicitly proposed design, with assumptions |
-| `tradeoffs.md` | Analysis of choices and their consequences |
-| `references.md` | Primary references and links to local evidence |
-| `source/` | Metadata, a concise summary, and asset provenance |
-| `diagrams/` | Attributed source visuals and clearly labeled original diagrams |
-
-Distinguish facts stated by a source, inferences supported by evidence, and implementation choices made for an example. Do not turn a proposed mechanism into a claim about the source system.
+Use `case-studies/<system-name>/` with a scoped README, source-backed architecture notes, reconstruction assumptions, tradeoffs, references, and attributed diagrams when appropriate. Separate **published facts**, **supported inference**, and **our proposed implementation**. Never imply access to private internals.
 
 ## Source capture
 
-Record the canonical URL, publisher, authors, publication date, capture date, acquisition method, and limitations. Give every saved visual a source URL, local path, media type, and SHA-256 digest in a manifest.
+Record the canonical URL, publisher, author, publication and capture dates, acquisition method, and limitations. Attribute preserved visuals, record their provenance and hashes, and distinguish original figures from screenshots or redraws. Link to full articles unless inclusion is permitted. Do not include secrets, authentication data, or unrelated assets.
 
-Use meaningful filenames and file extensions that match the actual media type. Keep original figures separate from browser screenshots and redraws. For dynamic content, identify whether an artifact preserves the animation or only one frame.
+## Concepts and patterns
 
-Link to full articles unless there is a basis for including their text. Credit original sources beside captured visuals. Do not store authentication data, browser profiles, or unrelated page assets.
+Concepts explain foundational ideas independently of vendors. Patterns document a recurring problem, prerequisites, mechanics, invariants, failure cases, tradeoffs, and worked examples. Cross-link related concepts, case studies, implementations, and missions.
 
-## Concepts, patterns, and code
+## Implementations
 
-Create concept and pattern pages as their explanations become useful across studies. A pattern should state the problem, assumptions, mechanism, failure cases, and evidence for using it.
+Include reproducible setup instructions, executable source, meaningful tests, and deliberate failure experiments. Label deterministic simulations, mocks, and real integrations. Do not publish an empty package or claim that design-only work is runnable.
 
-An implementation should have reproducible setup instructions, a runnable example, and checks for meaningful failure modes. Label simulations and fake agents clearly. Do not create a package manifest that implies an implementation exists before it does.
+## Missions
 
-Before submitting, check local links, inspect diagrams, verify manifest digests, and run the checks relevant to any changed code.
+A mission must state its objective, trigger, durable workflow, execution permissions, evaluation criteria, feedback mechanism, recovery policy, and human approval points. Distinguish proposed, simulated, locally working, and deployed behavior. Report outcomes with evidence rather than assuming that generated software is useful.
+
+## Review checklist
+
+- Sources and claims are correctly attributed.
+- Local links work; diagrams and manifests are verified.
+- Proposed designs are not represented as facts about third-party systems.
+- Code runs as documented and failure tests are reproducible.
+- External actions are bounded and appropriate approvals are explicit.
+- Status labels reflect what actually exists.
